@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename = '/style.css')}}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet"href="https://fonts.googleapis.com/css?family=Tangerine:bold,bolditalic|Rancho&effect=shadow-multiple">
+    <title>Blog Homepage</title>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+            <h1 id="web_header">Blog Generator Homepage</h1>
+            <p class="web_links">
+                <a id="b_for" href='/form'> Blog Form</a>
+                <span id="slash">|</span>
+                <a href='/blog_info'> Blog Display</a>
+            
+            </p>
+            <h3 id="head_heading">Overview</h3>
+            <p class="para_vody">
+                This blog post generator is a tool that helps you generate content using machine learning. 
+                The blog post generators take your inputs (topic, keyword research, etc.) 
+                and act as a content brief generator of your ideas. 
+                Then, it uses most up-to-date python framework to generate blog ideas based on what users had inputted.
+            </p>
+        <div class="col-6 ">
+            <img class="img-thumbnail f_imgbody img_f" src="{{url_for('static', filename = '/images/blog-1.jpg')}}" width="500" height="300" >
+            <img class="img-thumbnail img_f" src="{{url_for('static', filename = '/images/blog-dark.jpg')}}" width="500" height="300" >
+        </div>
+
+        <div class="col-6 ">
+            <img class="rounded f_imgbody " src="{{url_for('static', filename = '/images/Blog.jpg')}}" width="500" height="300" >
+            <img class="rounded " src="{{url_for('static', filename = '/images/Let-Blogging.jpg')}}" width="500" height="300" >
+        </div>
+    <h4 id="blog-head">
+        The blog generator website can perform the following actions.
+    </h4>
+    <ol class="para_vody" id="list_body">
+        <li>Submit blog details including (name of blogger, title of blogs, subtitle of blogs and summary of the blog)</li>
+        <li>View details of information submitted</li>
+        <li>Access blog details submitted </li>
+        <li>Read other exciting blog stories </li>
+    </ol>
+
+    <p class="para_vody">Our blog website hopes to provide users with the most exciting features while browsing through different blog stories.</p>
+    <i id="bottom">Thank you for visiting our website today.</i>
+    </div>
+
+</div>    
+</body>
+</html>

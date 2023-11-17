@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename = '/style.css')}}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>Display Blog Details</title>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <h1 id="submit_head">Thank you submitting the blog details</h1>
+      <h5 id="sub_head"><i>Here are the details of the information you submitted</i></h5>
+     <div id="auth_body">
+      <p> The name of the author <strong>{{author_name}}</strong></p>  
+      <p> The title of the blog <strong>{{blog_title}}</strong></p> 
+      <p> The blog subtitle <strong>{{blog_stitle}}</strong></p>
+      <p> The blog subtitle <strong>{{blog_details}}</strong></p>
+     </div> 
+
+      <h4 id="url_det"> To read the details of the blog you just submitted <a href='/blog_info'>Click here</a></h4>
+    </div>
+  </div>
+</body>
+</html>

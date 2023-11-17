@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template Result</title>
+</head>
+<body>
+    <h1>
+  Form submitted successfully
+    </h1>
+    <h5>The user name is {{user_name}}</h5>
+    <h5>The user age is {{user_age}}</h5>
+    <h5>The user city is {{user_city}}</h5>
+
+    <!-- commenting in flask -->
+    {#not to be commented with jinja#}
+    <!-- taking decision in flask using else_if -->
+    {% if user_age > 17 %}
+    <h3>You are eligible to vote</h3>
+    <p>Vote for a candidate that can work</p>
+    {% else %}
+    <h4>you are not eligible to vote</h4>
+    <p>Keep calm while the vote is ongoing</p>
+    {% endif %} 
+    <!-- for loop in jinja -->
+    {{u_list}}
+    {% if u_list %}
+    <ul>
+        {% for items in u_list %}
+        <li>{{items}}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+</body>
+</html>

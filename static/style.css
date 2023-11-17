@@ -1,0 +1,287 @@
+.container{
+    background: fixed;
+    background-color: rgb(186, 226, 223);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+
+#user_form{
+    margin-top: 2%;
+}
+.inpt_field{ 
+float: right;
+display: flexbox;
+width: 30%;
+height: 10%;
+margin-right: 40%;}
+
+/* Main header */
+.header{
+    text-align: center;
+    font-size: 70px;
+margin-bottom: 5%;}
+
+/* Header Display Text disappearing */
+
+.text_shadows{
+    font-family: 'Tangerine', serif;
+    font-size: 100px;
+    text-shadow: 4px 4px 4px #aaa;
+    text-align: center;
+    color: rgb(243, 35, 167);
+    margin-top: 3%;
+    margin-bottom: none;
+}
+
+    /* Input Heading */
+
+#detail_heading{
+        margin-top: 5%;
+       margin-left: 8%;
+        text-decoration: underline;
+    }
+.para_field{
+    margin-left: 40%;
+    /* float: right;
+    display: flexbox; */
+}
+
+/* Label names */
+.name_lb{
+    margin-left: 10%;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 700;
+}
+
+/* for button input */
+
+.btn-success{margin-left: 30%;
+margin-top: 1%;
+margin-bottom: 7%;
+width: 10%;
+height: 10%;
+}
+
+/* Blog heading before images */
+
+#blog_head{
+    text-align: center;
+    margin-bottom: 3%;
+    font-weight: bolder;
+    font-size: 50px;
+    color: crimson;
+    text-transform: capitalize;
+    text-shadow: rgb(17, 13, 16) 2px 2px !important;
+}
+
+/* Subtitle texts */
+
+.d_blog{
+    margin-bottom: 3%;
+    font-style: oblique;
+    text-shadow: rgb(210, 121, 188) 2px 2px;
+    
+}
+
+/* Text after image */
+
+#d_direct{
+    margin-top: 3%;
+    border-bottom: solid 4px;
+    margin-bottom: 5% !important;
+}
+
+/* input field for generating data */
+
+.data_input{
+    /* width: 50%; */
+    /* border:none; */
+    /* height: 20%; */
+    margin-bottom: 2%;
+}
+#d_time{
+    border: solid 2px;
+    width: 10%; 
+    /* height: 30%; */
+    border-radius: 40px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: hotpink;
+    font-weight: 600;
+    color: rgb(33, 95, 227);
+    margin-left: 80%;
+}
+
+#first_col{
+    border-right: solid 2px;
+}
+
+/* Designing for form for the blog */
+
+.b_det{
+    margin-left: 10%;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 700;
+    color: bisque;
+
+}
+
+.inpt_form{
+    float: right;
+    display: flexbox;
+    width: 30%;
+    height: 13%;
+    margin-right: 40%;
+}
+
+ 
+#form_head {
+    margin-bottom: 7%;
+    margin-top: 2%;
+    margin-left: 3%;
+    color: rgb(220, 118, 137);
+    text-shadow: rgb(81, 42, 165) 2px 2px;
+}
+
+#form_path {
+    background-color: rgb(45, 34, 46) !important;
+}
+
+/* Read Blog Design */
+
+#display_list{
+    background-color:cadetblue !important;
+    margin-top: 5%;
+    font-weight: 700;
+    font-size: x-large;
+    
+}
+
+#auth_grid{
+    margin-bottom: 3%;
+}
+
+#blog_head{
+    text-align: center;
+    margin-bottom: 5%;
+    color: coral;
+}
+
+/* Details of Blogging design */
+
+#detail_read{
+    text-align: center;
+    margin-bottom: 5%;
+    color: coral;  
+  
+   
+}
+
+#body_det{
+    font-size: x-large;
+    font-weight: 600;
+
+}
+
+/* Designing Display of form information */
+
+#submit_head{
+    text-align: center;
+    color: chocolate;
+    margin-top: 3%;
+    margin-bottom: 1%;
+}
+
+#sub_head{
+    text-align: center;
+    color: rgb(63, 30, 210);
+    
+    margin-bottom: 3%;
+}
+
+#auth_body{
+    margin-left: 3%;
+    margin-bottom: 4%;
+    font-size: larger;
+}
+
+#url_det{
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+/* Designing Homepage HTML */
+
+#web_header{
+    font-family: 'Tangerine', serif;
+    font-size: 100px;
+    text-shadow: 4px 4px 4px #aaa;
+    text-align: center;
+    color: rgb(243, 35, 35);
+    margin-top: 3%;
+    margin-bottom: none;
+}
+
+.web_links{
+    margin-left: 70%;
+    text-decoration: none;
+    margin-bottom: 5%;
+    border-bottom: black 2px 2px;
+}
+.web_links:visited{
+    color: darkorange;
+}
+
+#b_for{
+    margin-right: 2%;
+}
+
+#slash{
+    margin-right: 2%;
+}
+
+.para_vody{
+    
+    font-size: large;
+    margin-top: 5%;
+    margin-bottom: 4%;
+    text-align: justify;
+}
+
+#list_body{
+    margin-left: 5%;
+}
+
+#bottom{
+    text-align: center;
+    color: blue;
+    text-shadow: burlywood 2px 2px ;
+    font-size: large;
+}
+#head_heading{
+    text-align: center;
+    color: darkgreen;
+    text-shadow: red 1px 1px;
+    font-weight: 700;
+    font-size:300%;
+    text-decoration: underline;
+    margin-bottom: 3%;
+}
+
+#blog-head{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 500;
+}
+.f_imgbody{
+    margin-bottom: 4%
+
+}
+
+.img_f{
+    margin-left: 10%;
+}

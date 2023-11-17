@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename = '/style.css')}}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>Read Blog</title>
+</head>
+<body>
+    <!-- <p>{{d_allblog}}</p> -->
+
+<div id="display_list" class="container" >
+    <h1 id="blog_head" class="card-header">Read your favourite Blogs here</h1>
+    {% if d_allblog %}
+    <ul  class="list-group" >
+        {% for detail in d_allblog %}
+        <li id="auth_grid" class="list-group-item">Name of Author: {{detail['author_name']}}, <a href="/blog_auth/{{detail['author_name']}}">Read Blog Details</a></li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+
+</div>
+
+
+</body>
+</html>

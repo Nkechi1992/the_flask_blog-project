@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'style.css') }}">
+    <title>Flask Form</title>
+</head>
+<body>
+    <!-- To extract data using GET method, just change the name of the method to "GET" -->
+  <form id="my_form" action="http://127.0.0.1:5000/form" method="POST" enctype = "multipart/form-data"> 
+    <input type="text" placeholder="User Name" name="user_name">
+    <input type="number" placeholder="User Age" name="user_age">
+    <input type="text" placeholder="User City" name="user_city">
+    <input type="submit" value="submit">
+  </form>  
+</body>
+</html>

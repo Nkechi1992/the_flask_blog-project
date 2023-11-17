@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Details</title>
+</head>
+<body>
+ 
+    <h1> The details of the users:</h1>
+    <p>{{user_list}}</p>
+    {% if user_list %}
+    <ol>
+        {% for item in user_list %}
+        <li>
+         User name :{{item['user_name']}}, User age: {{item['user_age']}}, User city: {{item['user_city']}},
+        </li>
+        {% endfor %}
+    </ol>
+    {% endif %}   
+</body>
+</html>
